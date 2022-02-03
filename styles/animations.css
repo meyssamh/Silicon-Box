@@ -1,0 +1,7 @@
+.drawer-slide-enter-done {
+	transform: translateX(0%) !important;
+}
+
+.drawer-slide-exit-done {
+	transform: translateX(-100%) !important;
+}

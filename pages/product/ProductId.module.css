@@ -1,0 +1,17 @@
+.purchaise {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+	.main {
+		padding-bottom: 120px;
+	}
+
+	.purchaise {
+		margin: 0;
+	}
+}

@@ -1,0 +1,12 @@
+.image_container {
+	max-width: 95%;
+	display: block;
+	margin: 10px auto;
+}
+
+@media screen and (min-width: 630px) {
+	.image_container {
+		max-width: 600px;
+		margin: 20px auto;
+	}
+}

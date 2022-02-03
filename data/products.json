@@ -1,0 +1,162 @@
+[
+	{
+		"id": "1021940001",
+		"title": "Blazer",
+		"price": "39.99",
+		"category": "women",
+		"description": "Fitted blazer in woven fabric. One button at front, welt front pockets, and long sleeves with a covered button at cuffs. Vent at back. Lined.",
+		"image": "/images/women/blazer.jpg"
+	},
+	{
+		"id": "1024119001",
+		"title": "Double-breasted Satin Blouse",
+		"price": "27.99",
+		"category": "women",
+		"description": "Relaxed-fit, double-breasted blouse in satin with a printed pattern. Notched lapels, dropped shoulders, and long sleeves.",
+		"image": "/images/women/blouse.jpg"
+	},
+	{
+		"id": "1023174002",
+		"title": "Oversized Denim Shirt",
+		"price": "23.99",
+		"category": "women",
+		"description": "Oversized shirt in thick denim. Collar, buttons at front, and yoke at back with pleat. Chest pocket, long sleeves with buttons at cuffs, and a rounded hem.",
+		"image": "/images/women/shirt-oversized.jpg"
+	},
+	{
+		"id": "1009924006",
+		"title": "Shirt with a Sheen",
+		"price": "19.99",
+		"category": "women",
+		"description": "Relaxed-fit shirt in woven fabric with a slight sheen. Collar, buttons at front, and double-layered yoke at back with box pleat. Gently dropped shoulders and long sleeves with buttons at cuffs. Rounded hem.",
+		"image": "/images/women/shirt-sheen.jpg"
+	},
+	{
+		"id": "0979874005",
+		"title": "Sweatshirt Dress",
+		"price": "14.39",
+		"category": "women",
+		"description": "Relaxed-fit, knee-length sweatshirt dress in cotton-blend fabric. Dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem.",
+		"image": "/images/women/sweatshirt.jpg"
+	},
+	{
+		"id": "1005888002",
+		"title": "Water-repellent Puffer Jacket",
+		"price": "39.99",
+		"category": "men",
+		"description": "Quilted, padded jacket in windproof, water-repellent fabric. Drawstring hood, stand-up collar, and zipper at front with chin guard. Chest pocket with zipper, front pockets with zipper, and mesh inner pockets. Elasticized trim at cuffs and a concealed, elasticized drawstring at hem. Lined.",
+		"image": "/images/men/puffer-jacket.jpg"
+	},
+	{
+		"id": "0981231015",
+		"title": "Rib-knit Hat",
+		"price": "7.99",
+		"category": "men",
+		"description": "Soft, rib-knit hat with foldover cuff.",
+		"image": "/images/men/hat.jpg"
+	},
+	{
+		"id": "0920624018",
+		"title": "Relaxed Fit Printed T-shirt",
+		"price": "15.99",
+		"category": "men",
+		"description": "Relaxed-fit T-shirt in soft cotton jersey with a printed design. Crew neck.",
+		"image": "/images/men/t-shirt.jpg"
+	},
+	{
+		"id": "1027114001",
+		"title": "Water-repellent Jacket",
+		"price": "39.99",
+		"category": "men",
+		"description": "Padded jacket in windproof, water-repellent functional fabric. Stand-up collar, zipper at front, diagonal welt side pockets, and an inner pocket with snap fastener. Ribbing at cuffs and elastic at hem. Lined.",
+		"image": "/images/men/jacket.jpg"
+	},
+	{
+		"id": "1027006001",
+		"title": "Loose Fit Joggers",
+		"price": "27.99",
+		"category": "men",
+		"description": "Loose-fit, lightweight sweatpant joggers. Covered elastic and concealed drawstring at waistband, side pockets, and a welt back pocket with concealed zipper and small appliqué. Elasticized drawstring at hems.",
+		"image": "/images/men/joggers.jpg"
+	},
+	{
+		"id": "188589001",
+		"title": "Linen King/Queen Duvet Cover Set",
+		"price": "103.20",
+		"category": "home",
+		"description": "King/queen duvet cover set in soft, washed linen for comfortable sleep. Duvet cover fastens at foot end with concealed metal snap fasteners. Two pillowcases with envelope opening. Linen is a durable, long-lasting fabric which, with proper care, will become softer and more attractive with every wash. Linen bedding is a good choice for those who struggle with overheating, as the material absorbs moisture for a cool and comfortable sleeping environment. Thread count 104.",
+		"image": "/images/home/duvet-cover-set.jpg"
+	},
+	{
+		"id": "0974198002",
+		"title": "Cotton Storage Basket",
+		"price": "19.99",
+		"category": "home",
+		"description": "Storage basket in thick, woven cotton fabric with two handles at top. Diameter 13 3/4 in. Height 11 in.",
+		"image": "/images/home/basket.jpg"
+	},
+	{
+		"id": "1056072001",
+		"title": "Large Patterned Glass Vase",
+		"price": "23.99",
+		"category": "home",
+		"description": "Large, oval vase with an asymmetrical pattern of softly-shaped dots. Design and color of pattern may vary making each item unique. Inner diameter at top 3 1/4 in. Diameter at widest point 8 1/4 in. Height 11 3/4 in.",
+		"image": "/images/home/vase.jpg"
+	},
+	{
+		"id": "0991755014",
+		"title": "Waffled Bathrobe",
+		"price": "27.99",
+		"category": "home",
+		"description": "Bathrobe in a soft, waffle-weave cotton blend with two front pockets and a tie belt at waist.",
+		"image": "/images/home/bathrobe.jpg"
+	},
+	{
+		"id": "0579381084",
+		"title": "Cotton Velvet Cushion Cover",
+		"price": "7.99",
+		"category": "home",
+		"description": "Cushion cover in cotton velvet with a concealed zip.",
+		"image": "/images/home/cushin-cover.jpg"
+	},
+	{
+		"id": "0925873011",
+		"title": "Belted Shirt Dress",
+		"price": "11.99",
+		"category": "baby",
+		"description": "Long-sleeved dress in woven cotton fabric with a printed pattern. Collar, buttons at upper front, yoke at back with box pleat, and belt at waist. Rounded hem, slightly longer at back.",
+		"image": "/images/baby/belted-dress.jpg"
+	},
+	{
+		"id": "0931992018",
+		"title": "Tulle-skirt Dress",
+		"price": "11.99",
+		"category": "baby",
+		"description": "Short-sleeved dress in textured jersey. Small opening at back of neck with button, waistband in glittery elastic, and a lined, voluminous skirt in multiple layers of shiny tulle.",
+		"image": "/images/baby/skirt-dress.jpg"
+	},
+	{
+		"id": "0743530004",
+		"title": "Brushed-inside Joggers",
+		"price": "10.39",
+		"category": "baby",
+		"description": "Sweatpant joggers in heavy fabric with soft, brushed inside. Ribbed, elasticized waistband, side pockets, and ribbed hems.",
+		"image": "/images/baby/joggers.jpg"
+	},
+	{
+		"id": "1017748002",
+		"title": "Oversized Sibling Sweatshirt",
+		"price": "7.99",
+		"category": "baby",
+		"description": "Relaxed-fit sweatshirt in cotton-blend fabric with a puffy, printed text design. Gently dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem.",
+		"image": "/images/baby/oversized-sweatshirt.jpg"
+	},
+	{
+		"id": "1023647003",
+		"title": "Sweatshirt",
+		"price": "7.99",
+		"category": "baby",
+		"description": "Comfy top in printed sweatshirt fabric with a soft brushed inside. Relaxed fit with dropped shoulders, long sleeves and ribbing around the neckline, cuffs and hem.",
+		"image": "/images/baby/sweatshirt.jpg"
+	}
+]

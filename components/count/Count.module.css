@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	border: solid 1px black;
+	align-items: center;
+	width: 110px;
+}
+
+.add, .subtract {
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	cursor: pointer;
+	background-color: lightgray;
+}
+
+.count {
+	width: 50px;
+	text-align: center;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	padding: 5.5px 0;
+	cursor: default;
+}
