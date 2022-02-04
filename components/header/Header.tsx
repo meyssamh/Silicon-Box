@@ -73,7 +73,7 @@ const Header: React.FC = (): JSX.Element => {
 						// logout icon button. by clicking user will logout
 						<li>
 							<button className={classes.button} onClick={logoutHandler}>
-								<span className={"material-icons"}>login</span>
+								<span className={"material-icons"}>logout</span>
 							</button>
 						</li>
 					)}

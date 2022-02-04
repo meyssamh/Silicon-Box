@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { useRouter, type NextRouter } from 'next/router';
+import classNames from 'classnames';
 
 import classes from './Drawer.module.css';
 import DrawerContext from '%/drawer-context';
@@ -19,6 +20,11 @@ const Drawer: React.FC = (): JSX.Element => {
 
 	const linkClickHandler = event => {
 		router.push(`/category/${event.target.innerText}`);
+		DrawerCtx.hideDrawer();
+	};
+
+	const cartLinkClickHandler = () => {
+		router.push('/cart');
 		DrawerCtx.hideDrawer();
 	};
 
@@ -57,6 +63,15 @@ const Drawer: React.FC = (): JSX.Element => {
 			<li className={classes.li} onClick={linkClickHandler}>
 				<a className={classes.link}>
 					home
+				</a>
+			</li>
+			{/* link to cart */}
+			<li
+				className={classNames(classes.li, classes.cart)}
+				onClick={cartLinkClickHandler}
+			>
+				<a className={classes.link}>
+					cart
 				</a>
 			</li>
 		</ul>
