@@ -12,10 +12,10 @@ const handler = async (req, res) => {
 	const { email, password } = data;
 
 	// checking if email and password are valid
-	if (!email || !email.includes('@') || !password || password.trim().length < 7) {
+	if (!email || !email.includes('@') || !password || password.trim().length < 4) {
 		res.status(422).json({
 			message:
-				'Invalid input - password should also be at least 7 characters long.'
+				'Invalid input - password should also be at least 4 characters long.'
 		});
 		return;
 	}

@@ -38,3 +38,13 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
+.success {
+	color: rgb(0, 192, 0);
+	margin-top: 0;
+}
+
+.error {
+	color: rgb(255, 36, 36);
+	margin-top: 0;
+}

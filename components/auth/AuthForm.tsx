@@ -42,6 +42,9 @@ const AuthForm: React.FC = (): JSX.Element => {
 	const emailInputRef: React.MutableRefObject<HTMLInputElement> = useRef<HTMLInputElement>();
 	const passwordInputRef: React.MutableRefObject<HTMLInputElement> = useRef<HTMLInputElement>();
 	const [isLogin, setIsLogin] = useState<boolean>(true);
+	const [successfullSignup, setSuccessfullSignup] = useState<boolean>(false);
+	const [invalidSignup, setInvalidSignup] = useState<boolean>(false);
+	const [invalidLogin, setInvalidLogin] = useState<boolean>(false);
 	const router: NextRouter = useRouter();
 
 	// Switches the form mode between login and sign up.
@@ -62,8 +65,6 @@ const AuthForm: React.FC = (): JSX.Element => {
 
 		// TODO: email and password validation in frontend
 
-		// TODO: make a feedback for users
-
 		if (isLogin) {
 			const result = await signIn('credentials', {
 				redirect: false,
@@ -73,14 +74,21 @@ const AuthForm: React.FC = (): JSX.Element => {
 
 			if (!result.error) {
 				router.replace('/');
+				setSuccessfullSignup(false);
 			}
 			console.log(result);
+			setInvalidLogin(true);
 		} else {
 			try {
 				const result = await createUser(enteredEmail, enteredPassword);
 				console.log(result);
+				setIsLogin(true);
+				setSuccessfullSignup(true);
+				emailInputRef.current.value = "";
+				passwordInputRef.current.value = "";
 			} catch (error) {
 				console.log(error);
+				setInvalidSignup(true);
 			}
 		}
 	};
@@ -105,8 +113,34 @@ const AuthForm: React.FC = (): JSX.Element => {
 				</div>
 				{/* actions */}
 				<div className={classes.actions}>
+					{
+						successfullSignup ?
+							<p className={classes.success}>
+								Signup was successfull. Please Login!
+							</p> :
+							null
+					}
+					{
+						invalidSignup ?
+							<p className={classes.error}>
+								Signup was not successfull. Please try again!
+							</p> :
+							null
+					}
+					{
+						invalidLogin ?
+							<p className={classes.error}>
+								Login was not sucessfull. Please try again!
+							</p> :
+							null
+					}
 					{/* button to login or sign up */}
-					<Button style={{ width: '150px' }}>
+					<Button style={{
+						width: '150px',
+						backgroundColor: '#000635',
+						color: 'ghostwhite'
+					}}
+					>
 						{isLogin ? 'Login' : 'Create Account'}
 					</Button>
 					<br />

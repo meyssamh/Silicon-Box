@@ -6,7 +6,7 @@ import { MongoClient } from 'mongodb';
  * @returns {Promise} - Connection to MongoDB.
  */
 export async function connectToDatabase(): Promise<MongoClient> {
-	const connectionString = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_CLUSTERNAME}.ztsk1.mongodb.net/${process.env.MONGODB_DATABASE}?retryWrites=true&w=majority`;
+	const connectionString = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_CLUSTERNAME}.0aecz4x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 	// connect to mongodb 
 	const client = await MongoClient.connect(
